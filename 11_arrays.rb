@@ -1,5 +1,5 @@
 
-=begin
+
 # New Pet
 pets = ["cat", "dog", "fish", "lizard"]
 
@@ -58,7 +58,7 @@ end
 p doubled_numbers
 
 
-=end
+
 # Divisible by Three
 numbers = [ 5, 9, 21, 26, 39]
 
@@ -72,5 +72,29 @@ end
 p divisible_by_three
 
 
-=end
+
 # Favorite Number (Part 1)
+[["Dave",7],["Miranda",3],["Jason",11]]
+
+
+
+# Favorite Number (Part 2)
+favorites = [["Dave", 7],["Miranda", 3],["Jason", 11]]
+flat_favorites = favorites.flatten
+p flat_favorites
+
+
+
+# Are We The Same?
+array1 = [1,5,9]
+array2 = [1,9,5]
+if array1 == array2
+  puts "true"
+else
+  puts "false"
+end
+
+# provided solution - which is much shorter
+puts array1 == array2
+
+
